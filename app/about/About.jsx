@@ -7,7 +7,7 @@ export default function About({websites}) {
 
   const downloadCV = () => {
     const link = document.createElement("a");
-    link.href = "https://drive.google.com/file/d/1p1J1_wZyrDbMH7bv79lTpfQIa1_QAJqq/view?usp=drivesdk";
+    link.href = "https://drive.google.com/file/d/1zBXXi7ZbUhLHhUkEteyWxS6Ag6MvTZFB/view?usp=drive_link";
     link.download = "D_Raju_Rao_CV.pdf";
     link.click();
   };

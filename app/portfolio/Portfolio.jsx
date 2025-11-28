@@ -26,89 +26,102 @@ gsap.registerPlugin(ScrollTrigger);
 export default function Portfolio() {
   const sectionRef = useRef(null);
 
-  const websites = [
-    {
-      image: drkunalsayani,
-      link: "https://drkunalsayani.com",
-      name: "Dr. Kunal Sayani",
-    },
+ const websites = [
+  {
+    id: 1,
+    image: drkunalsayani,
+    link: "https://drkunalsayani.com",
+    name: "Dr. Kunal Sayani",
+  },
+  {
+    id: 2,
+    image: spadvertising,
+    link: "https://spadvertising.in",
+    name: "SP Advertising",
+  },
+  {
+    id: 3,
+    image: drchitraendocare,
+    link: "https://drchitraendocare.com",
+    name: "Dr. Chitra Endocare",
+  },
+  {
+    id: 4,
+    image: varunwadhwa,
+    link: "https://varunwadhwa.com",
+    name: "Varun Wadhwa",
+  },
+  {
+    id: 5,
+    image: pracharkarsolutions,
+    link: "https://www.pracharkarsolutions.com",
+    name: "Pracharkar Solutions",
+  },
+  {
+    id: 6,
+    image: muraadconstruction,
+    link: "https://muraadconstruction.com",
+    name: "Muraad Construction",
+  },
+  {
+    id: 7,
+    image: svnsolar,
+    link: "https://svnsolar.vercel.app/",
+    name: "SVN Solar",
+  },
+  {
+    id: 8,
+    image: iref,
+    link: "https://irefraipur.in/",
+    name: "irefraipur",
+  },
+];
 
-    {
-      image: spadvertising,
-      link: "https://spadvertising.in",
-      name: "SP Advertising",
-    },
-   
-    {
-      image: drchitraendocare,
-      link: "https://drchitraendocare.com",
-      name: "Dr. Chitra Endocare",
-    },
-     {
-      image: varunwadhwa,
-      link: "https://varunwadhwa.com",
-      name: "Varun Wadhwa",
-    },
-    {
-      image: pracharkarsolutions,
-      link: "https://www.pracharkarsolutions.com",
-      name: "Pracharkar Solutions",
-    },
-    {
-      image: muraadconstruction,
-      link: "https://muraadconstruction.com",
-      name: "Muraad Construction",
-    },
-    {
-      image: svnsolar,
-      link: "https://svnsolar.vercel.app/",
-      name: "SVN Solar",
-    },
-     {
-      image: iref,
-      link: "https://irefraipur.in/",
-      name: "irefraipur",
-    },
-  ];
+const projects = [
+  {
+    id: 1,
+    image: diginote,
+    link: "https://diginote.in/",
+    name: "SVN Solar",
+  },
+  {
+    id: 2,
+    image: food_delivery,
+    link: "https://rajurao1106.github.io/food-website/",
+    name: "Food Delivery Website",
+  },
+  {
+    id: 3,
+    image: aiguru,
+    link: "https://aiguru.vercel.app/",
+    name: "Ai Guru",
+  },
+  {
+    id: 4,
+    image: quickscan,
+    link: "https://quickscan-nine.vercel.app/",
+    name: "Quickscan Website",
+  },
+  {
+    id: 5,
+    image: educity,
+    link: "https://rajurao1106.github.io/educity-website/",
+    name: "Educity Website",
+  },
+  {
+    id: 6,
+    image: define,
+    link: "https://define-jss6.onrender.com",
+    name: "Define Website",
+  },
+  {
+    id: 7,
+    image: buddy,
+    link: "https://buddy-5ext.onrender.com/",
+    name: "Buddy Website",
+  },
+];
 
-  const projects = [
-    {
-      image: diginote,
-      link: "https://diginote.in/",
-      name: "SVN Solar",
-    },
-    {
-      image: food_delivery,
-      link: "https://rajurao1106.github.io/food-website/",
-      name: "Food Delivery Website",
-    },
-    {
-      image: aiguru,
-      link: "https://aiguru.vercel.app/",
-      name: "Ai Guru",
-    },
-    {
-      image: quickscan,
-      link: "https://quickscan-nine.vercel.app/",
-      name: "Quickscan Website",
-    },
-    {
-      image: educity,
-      link: "https://rajurao1106.github.io/educity-website/",
-      name: "Educity Website",
-    },
-    
-    {
-      image: define,
-      link: "https://define-jss6.onrender.com",
-      name: "Define Website",
-    },
-    {
-      image: buddy,
-      link: "https://buddy-5ext.onrender.com/",
-      name: "Buddy Website",
-    },
-  ];
 
   useEffect(() => {
     let ctx = gsap.context(() => {

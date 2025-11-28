@@ -2,7 +2,7 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 
-export default function About() {
+export default function About({websites}) {
   const aboutRef = useRef(null); // Section reference
 
   const downloadCV = () => {
@@ -61,7 +61,7 @@ export default function About() {
     <section
       ref={aboutRef}
       id="about"
-      className="w-full flex flex-col justify-center items-center py-10 bg-gray-950 text-white h-screen max-md:h-[100%]"
+      className="w-full flex flex-col justify-center items-center py-10 bg-gray-950 text-white h-screen max-md:h-full"
     >
       <h1 className="section-header w-full text-5xl font-extrabold mb-20 max-lg:text-4xl max-md:text-3xl relative flex justify-center items-center">
         ABOUT <p className="ml-2 text-yellow-400"> ME</p>
@@ -106,13 +106,13 @@ export default function About() {
         </div>
 
         {/* Experience Stats */}
-        <div className="w-[100%] max-md:w-full flex flex-wrap gap-5 max-lg:justify-center">
+        <div className="w-full max-md:w-full flex flex-wrap gap-5 max-lg:justify-center">
           <div className="stat-card p-5 w-[15rem] h-[8rem] border rounded-lg border-red-100 flex flex-col items-center">
-            <p className="text-5xl font-bold text-yellow-400">5+</p>
+            <p className="text-5xl font-bold text-yellow-400">2+</p>
             <p>years of experience</p>
           </div>
           <div className="stat-card p-5 w-[15rem] h-[8rem] border rounded-lg border-red-100 flex flex-col items-center">
-            <p className="text-5xl font-bold text-yellow-400">12+</p>
+            <p className="text-5xl font-bold text-yellow-400">15+</p>
             <p>projects completed</p>
           </div>
           <div className="stat-card p-5 w-[15rem] h-[8rem] border rounded-lg border-red-100 flex flex-col items-center">

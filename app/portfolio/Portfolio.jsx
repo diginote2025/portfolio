@@ -27,11 +27,11 @@ export default function Portfolio() {
   const sectionRef = useRef(null);
 
   const websites = [
-    // {
-    //   image: drkunalsayani,
-    //   link: "https://drkunalsayani.com",
-    //   name: "Dr. Kunal Sayani",
-    // },
+    {
+      image: drkunalsayani,
+      link: "https://drkunalsayani.com",
+      name: "Dr. Kunal Sayani",
+    },
 
     {
       image: spadvertising,
@@ -49,21 +49,21 @@ export default function Portfolio() {
       link: "https://varunwadhwa.com",
       name: "Varun Wadhwa",
     },
-    // {
-    //   image: pracharkarsolutions,
-    //   link: "https://www.pracharkarsolutions.com",
-    //   name: "Pracharkar Solutions",
-    // },
+    {
+      image: pracharkarsolutions,
+      link: "https://www.pracharkarsolutions.com",
+      name: "Pracharkar Solutions",
+    },
     {
       image: muraadconstruction,
       link: "https://muraadconstruction.com",
       name: "Muraad Construction",
     },
-    // {
-    //   image: svnsolar,
-    //   link: "https://svnsolar.vercel.app/",
-    //   name: "SVN Solar",
-    // },
+    {
+      image: svnsolar,
+      link: "https://svnsolar.vercel.app/",
+      name: "SVN Solar",
+    },
      {
       image: iref,
       link: "https://irefraipur.in/",

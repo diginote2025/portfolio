@@ -1,9 +1,9 @@
 import React from 'react'
-import Hero from './hero/page'
+import Hero from './Hero'
 
 export default function page() {
   return (
-    <div className='bg-gray-950'>
+    <div className='flex justify-center items-center'>
       <Hero/>
     </div>
   )

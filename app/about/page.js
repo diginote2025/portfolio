@@ -1,10 +1,10 @@
 import React from 'react'
-import Hero from './hero/page'
+import About from './About'
 
 export default function page() {
   return (
-    <div className='bg-gray-950'>
-      <Hero/>
+    <div>
+      <About/>
     </div>
   )
 }

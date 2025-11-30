@@ -20,6 +20,7 @@ import muraadconstruction from "../images/muraadconstruction.png";
 import svnsolar from "../images/svnsolar.png";
 import diginote from "../images/diginote.png";
 import iref from "../images/iref.png";
+import proactivetherapy from "../images/proactive.png"
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -27,53 +28,54 @@ export default function Portfolio() {
   const sectionRef = useRef(null);
 
  const websites = [
+  
   {
     id: 1,
-    image: drkunalsayani,
-    link: "https://drkunalsayani.com",
-    name: "Dr. Kunal Sayani",
-  },
-  {
-    id: 2,
     image: spadvertising,
     link: "https://spadvertising.in",
     name: "SP Advertising",
   },
   {
-    id: 3,
+    id: 2,
     image: drchitraendocare,
     link: "https://drchitraendocare.com",
     name: "Dr. Chitra Endocare",
   },
   {
-    id: 4,
+    id: 3,
     image: varunwadhwa,
     link: "https://varunwadhwa.com",
     name: "Varun Wadhwa",
   },
-  {
-    id: 5,
-    image: pracharkarsolutions,
-    link: "https://www.pracharkarsolutions.com",
-    name: "Pracharkar Solutions",
+ {
+    id: 4,
+    image: diginote,
+    link: "https://diginote.in/",
+    name: "SVN Solar",
   },
   {
-    id: 6,
+    id: 5,
     image: muraadconstruction,
     link: "https://muraadconstruction.com",
     name: "Muraad Construction",
   },
+  // {
+  //   id: 6,
+  //   image: svnsolar,
+  //   link: "https://svnsolar.vercel.app/",
+  //   name: "SVN Solar",
+  // },
   {
     id: 7,
-    image: svnsolar,
-    link: "https://svnsolar.vercel.app/",
-    name: "SVN Solar",
-  },
-  {
-    id: 8,
     image: iref,
     link: "https://irefraipur.in/",
     name: "irefraipur",
+  },
+  {
+    id: 8,
+    image: proactivetherapy,
+    link: "https://proactivetherapy.vercel.app/",
+    name: "Proactive Therapy",
   },
 ];
 

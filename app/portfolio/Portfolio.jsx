@@ -21,6 +21,7 @@ import svnsolar from "../images/svnsolar.png";
 import diginote from "../images/diginote.png";
 import iref from "../images/iref.png";
 import proactivetherapy from "../images/proactive.png"
+import sociowright from "../images/sociowright.png"
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -59,12 +60,12 @@ export default function Portfolio() {
     link: "https://muraadconstruction.com",
     name: "Muraad Construction",
   },
-  // {
-  //   id: 6,
-  //   image: svnsolar,
-  //   link: "https://svnsolar.vercel.app/",
-  //   name: "SVN Solar",
-  // },
+  {
+    id: 6,
+    image: sociowright,
+    link: "https://sociowright.vercel.app/",
+    name: "Socoio Wright",
+  },
   {
     id: 7,
     image: iref,

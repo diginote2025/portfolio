@@ -48,12 +48,12 @@ export default function Portfolio() {
     link: "https://varunwadhwa.com",
     name: "Varun Wadhwa",
   },
- {
-    id: 4,
-    image: diginote,
-    link: "https://diginote.in/",
-    name: "SVN Solar",
-  },
+//  {
+//     id: 4,
+//     image: diginote,
+//     link: "https://diginote.in/",
+//     name: "SVN Solar",
+//   },
   {
     id: 5,
     image: muraadconstruction,

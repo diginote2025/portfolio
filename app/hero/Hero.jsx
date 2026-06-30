@@ -53,7 +53,7 @@ export default function Hero() {
             <p className="text-yellow-500">I'M D. RAJU RAO,</p> WEB DEVELOPER
           </h1>
           <p className="max-lg:text-base max-md:text-sm pr-5">
-            I am a passionate and results-driven Web Developer with 1 years of
+            I am a passionate and results-driven Web Developer with 2 years of
             experience specializing in creating dynamic, responsive, and
             user-friendly websites. My expertise lies in crafting seamless
             digital experiences using modern tools and technologies such as

@@ -76,7 +76,7 @@ export default function About({websites}) {
               <h2 className="text-2xl font-bold">PERSONAL INFO</h2>
               <p>First Name : D Raju</p>
               <p>Last Name : Rao</p>
-              <p>Age : 21</p>
+              <p>Age : 22</p>
               <p>Nationality : Indian</p>
               <p>Freelance : Yes</p>
             </div>

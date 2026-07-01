@@ -112,15 +112,15 @@ export default function About({websites}) {
             <p>years of experience</p>
           </div>
           <div className="stat-card p-5 w-[15rem] h-[8rem] border rounded-lg border-red-100 flex flex-col items-center">
-            <p className="text-5xl font-bold text-yellow-400">15+</p>
+            <p className="text-5xl font-bold text-yellow-400">20+</p>
             <p>projects completed</p>
           </div>
           <div className="stat-card p-5 w-[15rem] h-[8rem] border rounded-lg border-red-100 flex flex-col items-center">
-            <p className="text-5xl font-bold text-yellow-400">1+</p>
+            <p className="text-5xl font-bold text-yellow-400">2+</p>
             <p>years in industry</p>
           </div>
           <div className="stat-card p-5 w-[15rem] h-[8rem] border rounded-lg border-red-100 flex flex-col items-center">
-            <p className="text-5xl font-bold text-yellow-400">7+</p>
+            <p className="text-5xl font-bold text-yellow-400">10+</p>
             <p>happy clients</p>
           </div>
         </div>
